@@ -12,11 +12,12 @@ Ideas you can implement:
 - Add search feature
 - Add create your own routine
 
+<img src="https://github.com/drylaustin/FoodPin/assets/27654498/69d4db54-2f59-4c56-8973-47dff9690c16" height="620" width="300">
 
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 19 54 30](https://github.com/drylaustin/ExerciseLibrary/assets/27654498/93f41363-ac97-419c-8f30-31146d012a4f)
+<img src="https://github.com/drylaustin/ExerciseLibrary/assets/27654498/93f41363-ac97-419c-8f30-31146d012a4f" height="620" width="300">
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 19 53 44](https://github.com/drylaustin/ExerciseLibrary/assets/27654498/8b0d1893-0fad-447c-b051-d04efb769a88)
+<img src="https://github.com/drylaustin/ExerciseLibrary/assets/27654498/8b0d1893-0fad-447c-b051-d04efb769a88" height="620" width="300">
 
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-08-05 at 19 53 40](https://github.com/drylaustin/ExerciseLibrary/assets/27654498/222f9138-8980-4da8-ab66-2094b8122d85)
+<img src="https://github.com/drylaustin/ExerciseLibrary/assets/27654498/222f9138-8980-4da8-ab66-2094b8122d85" height="620" width="300">
