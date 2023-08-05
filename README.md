@@ -3,7 +3,7 @@ A simple SwiftUI app that displays exercises by muscle group.
 
 Instructions:
 
-- Clone project on Xcode
+- Clone repository on your local machine in Xcode
 - Go to https://rapidapi.com/rahulbanerjee26/api/musclewiki to get your apikey
 - Go to ExerciseRequest file and enter your api key in apiKeyValue in " "
 
@@ -11,9 +11,7 @@ Ideas you can implement:
 
 - Add search feature
 - Add create your own routine
-
-<img src="https://github.com/drylaustin/FoodPin/assets/27654498/69d4db54-2f59-4c56-8973-47dff9690c16" height="620" width="300">
-
+  
 
 <img src="https://github.com/drylaustin/ExerciseLibrary/assets/27654498/93f41363-ac97-419c-8f30-31146d012a4f" height="620" width="300">
 
