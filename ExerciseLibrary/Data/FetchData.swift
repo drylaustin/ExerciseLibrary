@@ -29,7 +29,6 @@ class apiCall {
         let request = URLRequest(url: url)
         
         
-        
         let task = URLSession.shared.dataTask(with: request) { (data, _, error) in
             guard let data = data, error == nil else {
                 return

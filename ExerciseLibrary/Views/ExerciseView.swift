@@ -18,7 +18,6 @@ struct ExerciseView: View {
     
     var body: some View {
         
-        
         NavigationView {
             List(exercises.prefix(50)) { exercise in
                 ZStack(alignment: .leadingFirstTextBaseline) {

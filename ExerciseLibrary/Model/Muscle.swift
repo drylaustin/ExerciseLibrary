@@ -25,7 +25,7 @@ let muscles = [Muscle(image: "biceps", bodyPart: "Biceps"),
                Muscle(image: "quads", bodyPart: "Quads"),
                Muscle(image: "glutes", bodyPart: "Glutes"),
                Muscle(image: "calves", bodyPart: "Calves"),
-               Muscle(image: "hamstring", bodyPart: "Hamstrings"),
+               Muscle(image: "hamstrings", bodyPart: "Hamstrings"),
                Muscle(image: "abs", bodyPart: "Abdominals"),
                Muscle(image: "obliques", bodyPart: "Obliques")]
     

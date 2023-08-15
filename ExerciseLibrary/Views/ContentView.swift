@@ -11,10 +11,25 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        // Display Header
-        HeaderView()
-        // Display Muscle Columns
-        MuscleView()
+        ZStack {
+            Color.black.opacity(0.9)
+                .ignoresSafeArea()
+            
+            VStack {
+            // Display Header
+            HeaderView()
+                   
+                ScrollView {
+                    // Display Muscle
+                    MuscleView()
+                    MuscleView()
+                    MuscleView()
+                    MuscleView()
+                    MuscleView()
+                }
+            }
+        }
+        
     }
 }
 

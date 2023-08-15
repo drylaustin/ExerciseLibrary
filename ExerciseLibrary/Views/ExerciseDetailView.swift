@@ -20,7 +20,7 @@ struct ExerciseDetailView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                // Displaye Video
+                // Display Video
                 VideoPlayer(player: AVPlayer(url: URL(string: exerciseItem.videoURL[0])!), videoOverlay: {
                     Spacer()
                 })

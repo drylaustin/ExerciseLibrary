@@ -9,20 +9,15 @@ import SwiftUI
 
 struct HeaderView: View {
     var body: some View {
-        ZStack {
-            Spacer()
-            Rectangle()
-                .frame(width: 380, height: 50)
-                .foregroundColor(.white)               
-            
+        
             Text("What are you training today?")
-                .frame(width: 350, height: 80, alignment: .leading)
-                .font(.system(.title3, weight: .bold))
-//                .foregroundColor(.white)
-                .padding(.leading, 10)
-                        
+                .frame(width: 360, height: 50, alignment: .leading)
+                .font(.system(.title2, weight: .bold))
+                .foregroundColor(.white)
+                .padding(15)
                 }
-    }
+     
+    
 }
 
 struct HeaderView_Previews: PreviewProvider {
@@ -30,3 +25,5 @@ struct HeaderView_Previews: PreviewProvider {
         HeaderView()
     }
 }
+
+
