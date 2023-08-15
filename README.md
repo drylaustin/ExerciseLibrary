@@ -24,4 +24,5 @@ Version 1
 <img src="https://github.com/drylaustin/ExerciseLibrary/assets/27654498/222f9138-8980-4da8-ab66-2094b8122d85" height="620" width="300">
 
 Version 2
+
 <img src="https://github.com/drylaustin/ExerciseLibrary/assets/27654498/03c973fd-df62-4f19-a3aa-4d1dc4c102bd" height="620" width="300">
