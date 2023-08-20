@@ -10,7 +10,7 @@ import SwiftUI
 struct MuscleView: View {
     
   
-    @State private var selectedMuscle: Muscle? = nil
+    @State private var selectedMuscle: Category? = nil
    
     var body: some View {
        
@@ -50,7 +50,7 @@ struct MuscleView: View {
    
 
 struct TargetMuscle: View {
-    var muscle: Muscle
+    var muscle: Category
     
     var body: some View {
         
@@ -63,7 +63,7 @@ struct TargetMuscle: View {
                 .background(Color.gray)
                 .padding(.bottom, 10)
                 
-            Text(muscle.bodyPart)
+            Text(muscle.exerciseType)
                 .font(.headline)
                 .fontWeight(.semibold)
                 .foregroundColor(.white)

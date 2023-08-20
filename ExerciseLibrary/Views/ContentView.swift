@@ -22,10 +22,8 @@ struct ContentView: View {
                 ScrollView {
                     // Display Muscle
                     MuscleView()
-                    MuscleView()
-                    MuscleView()
-                    MuscleView()
-                    MuscleView()
+                    EquipmentView()
+                    CardioView()
                 }
             }
         }

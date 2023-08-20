@@ -14,7 +14,7 @@ struct ExerciseView: View {
     // For back button
     @Environment(\.dismiss) var dismiss
     
-    var muscle: Muscle
+    var muscle: Category
     
     var body: some View {
         
@@ -50,7 +50,7 @@ struct ExerciseView: View {
             
             // Calls to display exercises by bodypart
             .onAppear {
-                apiCall().fetchdata(musclePart: muscle.bodyPart) { (exercises) in
+                apiCall().fetchdata(musclePart: muscle.exerciseType) { (exercises) in
                     self.exercises = exercises
                 }
             }
@@ -64,6 +64,6 @@ struct ExerciseView: View {
 
 struct ExerciseView_Previews: PreviewProvider {
     static var previews: some View {
-        ExerciseView(muscle: Muscle(image: "workout", bodyPart: "Chest"))
+        ExerciseView(muscle: Category(image: "workout", exerciseType: "Chest"))
     }
 }
