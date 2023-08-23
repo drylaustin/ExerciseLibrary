@@ -8,9 +8,12 @@
 import Foundation
 
 struct Exercise: Hashable, Codable, Identifiable {
-    let id: Int
-    let exercise_name: String
-    let videoURL: [String]
-    let steps: [String]
+   
+    let bodyPart: String
+    let equipment: String
+    let gifUrl: String
+    let id: String
+    let name: String
+    let target: String
    
 }

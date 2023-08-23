@@ -11,6 +11,7 @@
 		0C7D56022A8D9A6A000BF6AA /* CardioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D56012A8D9A6A000BF6AA /* CardioView.swift */; };
 		0C7D56042A8D9F20000BF6AA /* EquipmentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D56032A8D9F20000BF6AA /* EquipmentHeaderView.swift */; };
 		0C7D56062A91FDE5000BF6AA /* CardioHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D56052A91FDE5000BF6AA /* CardioHeaderView.swift */; };
+		0C7D56082A9591EB000BF6AA /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D56072A9591EB000BF6AA /* ImageView.swift */; };
 		0C95F2AB2A77307700D6103F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C95F2AA2A77307700D6103F /* HeaderView.swift */; };
 		0C95F2B02A7DB36700D6103F /* SubHeaderMuscleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C95F2AF2A7DB36700D6103F /* SubHeaderMuscleView.swift */; };
 		0CD763F42A6FA98200506307 /* ExerciseLibraryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD763F32A6FA98200506307 /* ExerciseLibraryApp.swift */; };
@@ -31,6 +32,7 @@
 		0C7D56012A8D9A6A000BF6AA /* CardioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioView.swift; sourceTree = "<group>"; };
 		0C7D56032A8D9F20000BF6AA /* EquipmentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentHeaderView.swift; sourceTree = "<group>"; };
 		0C7D56052A91FDE5000BF6AA /* CardioHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardioHeaderView.swift; sourceTree = "<group>"; };
+		0C7D56072A9591EB000BF6AA /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		0C95F2AA2A77307700D6103F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		0C95F2AF2A7DB36700D6103F /* SubHeaderMuscleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubHeaderMuscleView.swift; sourceTree = "<group>"; };
 		0C95F2B12A7DD3F200D6103F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				0C7D56032A8D9F20000BF6AA /* EquipmentHeaderView.swift */,
 				0C7D56052A91FDE5000BF6AA /* CardioHeaderView.swift */,
 				0C95F2AA2A77307700D6103F /* HeaderView.swift */,
+				0C7D56072A9591EB000BF6AA /* ImageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				0C7D56022A8D9A6A000BF6AA /* CardioView.swift in Sources */,
 				0CD764042A7099A300506307 /* Exercise.swift in Sources */,
 				0CD764062A709F2000506307 /* FetchData.swift in Sources */,
+				0C7D56082A9591EB000BF6AA /* ImageView.swift in Sources */,
 				0CD7640E2A75C44800506307 /* ExerciseRequest.swift in Sources */,
 				0C95F2AB2A77307700D6103F /* HeaderView.swift in Sources */,
 				0C7D56042A8D9F20000BF6AA /* EquipmentHeaderView.swift in Sources */,

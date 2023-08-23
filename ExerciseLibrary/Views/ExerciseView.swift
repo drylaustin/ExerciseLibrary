@@ -19,18 +19,16 @@ struct ExerciseView: View {
     var body: some View {
         
         NavigationView {
-            List(exercises.prefix(50)) { exercise in
+            List(exercises.prefix(20)) { exercise in
                 ZStack(alignment: .leadingFirstTextBaseline) {
                     
-                    // Show Details and Video when clicked
+                    // Show Details when clicked
                     NavigationLink(destination: ExerciseDetailView(exerciseItem: exercise)) {
                     }
                     .opacity(0.0)
                     HStack {
-                        Image(systemName: "play")
-                            .foregroundColor(.indigo)
-                            .frame(width: 70, height: 70)
-                        Text(exercise.exercise_name)
+                        ImageView(urlString: exercise.gifUrl)
+                        Text(exercise.name)
                     }
                             .bold()
                     }

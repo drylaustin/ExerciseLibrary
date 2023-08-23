@@ -17,7 +17,7 @@ struct ExerciseRequest: Codable, Hashable {
     
 }
 
-let urlValues = ExerciseRequest(baseUrl: "https://musclewiki.p.rapidapi.com/exercises",
+let urlValues = ExerciseRequest(baseUrl: "https://exercisedb.p.rapidapi.com/exercises",
                                 muscleKeyName: "muscle",
                                 apiKeyName: "rapidapi-key",
                                 apiKeyValue: "8213f312c7msh7c74016e92a8133p116f5djsnd6850f58cbae")

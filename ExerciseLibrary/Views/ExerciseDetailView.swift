@@ -6,11 +6,10 @@
 //
 
 import SwiftUI
-import AVKit
 
 struct ExerciseDetailView: View {
     
-    @State private var videoURL: String?
+    @State private var gifUrl: String?
     
     @Environment(\.dismiss) var dismiss
     
@@ -20,11 +19,12 @@ struct ExerciseDetailView: View {
         ScrollView {
             VStack(alignment: .leading) {
                 
-                // Display Video
-                VideoPlayer(player: AVPlayer(url: URL(string: exerciseItem.videoURL[0])!), videoOverlay: {
-                    Spacer()
-                })
-                .frame(width: 400, height: 220, alignment: .center)
+                // Display Image
+                ImageView(urlString: exerciseItem.gifUrl)
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 400, height: 220, alignment: .center)
+                    
+                              
                 
                 ZStack(alignment: .top) {
                     RoundedRectangle(cornerRadius: 20)
@@ -33,15 +33,15 @@ struct ExerciseDetailView: View {
                     VStack(alignment: .leading) {
                         
                         // Exercise name
-                        Text(exerciseItem.exercise_name)
+                        Text(exerciseItem.name)
                             .font(.title2)
                             .multilineTextAlignment(.center)
                             .bold()
                             .padding()
                         
                         // Exercise instructions
-                        ForEach(exerciseItem.steps, id: \.self) { step in
-                            Text(step)
+                      
+                        Text(exerciseItem.bodyPart)
                                 .font(.body)
                                 .padding()
                                 .multilineTextAlignment(.leading)
@@ -49,7 +49,7 @@ struct ExerciseDetailView: View {
                     }
                 }
             }
-        }
+        
 
         .navigationBarBackButtonHidden(true)
         .navigationBarTitleDisplayMode(.inline)
